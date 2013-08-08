@@ -4,6 +4,8 @@ module.exports = Presence;
 
 Presence.prototype.G = 'usb';
 Presence.prototype.name = 'Presence - USB';
+Presence.prototype.V = 0;
+Presence.prototype.D = 264;
 
 Presence.prototype.init = function() {
   this._usb = require('usb');
