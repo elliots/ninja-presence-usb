@@ -1,13 +1,13 @@
 {
   "name": "ninja-presence-usb",
   "version": "0.0.1",
-  "description": "A presence driver for NinjaBlocks for USB devices",
+  "description": "NinjaBlocks Presence Driver - USB (Mac, Linux, Windows)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
-  "author": "Elliot Shepherd",
+  "author": "Elliot Shepherd <elliot@ninjablocks.com>",
   "license": "MIT",
   "dependencies": {
     "ninja-presence-base": "git://github.com/elliots/ninja-presence-base",
